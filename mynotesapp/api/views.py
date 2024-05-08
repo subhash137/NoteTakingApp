@@ -27,7 +27,7 @@ def getroute(request):
             'method':'POST',
             'body':{'body':""},
             'description':'Creates new note with data sent in post request'
-        }
+        },
 
     ]
     return Response(routes)
